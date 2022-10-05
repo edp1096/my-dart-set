@@ -75,6 +75,14 @@ void main() {
   print(map);
   print(map["A"]);
 
+  Map map2 = {};
+  map2.addAll({
+    "A": "Air",
+    "B": "Bear",
+    "C": "Care",
+  });
+  print(map2);
+
   /* Boolean */
   bool isTrue = true;
   bool isFalse = false;
